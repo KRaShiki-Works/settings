@@ -41,12 +41,7 @@ set title
 set number
 " 不可視文字の可視化
 set list
-set listchars=  tab:»-,     " タブ
-                trail:-,    " 
-                eol:↲,      " 行末
-                extends:»,  "
-                precedes:«, "
-                nbsp:%      "
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 " 対応する括弧を表示
 set showmatch
